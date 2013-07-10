@@ -1,4 +1,4 @@
-!/usr/bin/env node
+#!/usr/bin/env node
 /*
 77;10103;0cAutomatically grade files for the presence of specified HTML tags/attributes.
 Uses commander.js and cheerio. Teaches command line application development
@@ -71,3 +71,4 @@ if(require.main == module) {
     console.log(outJson);
 } else {
     exports.checkHtmlFile = checkHtmlFile;
+}
